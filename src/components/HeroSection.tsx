@@ -37,9 +37,7 @@ const HeroSection = () => {
               Veja nossas Mercadorias
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 hover:bg-white/10 text-amber-600">
-              Solicitar Suporte
-            </Button>
+            
           </div>
 
           {/* Features */}

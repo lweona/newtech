@@ -64,12 +64,12 @@ const ContactSection = () => {
             {/* Social Media */}
             <div className="flex gap-4">
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-orange-500 hover:bg-orange-400">
-                <a href="https://instagram.com/cel.newtech/" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                   <Instagram className="w-5 h-5" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-slate-800 hover:bg-slate-700">
-                <a href="https://facebook.com/cel.newtech/" target="_blank" rel="noopener noreferrer">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <Facebook className="w-5 h-5" />
                 </a>
               </Button>
@@ -85,42 +85,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20">
-            <CardHeader>
-              <CardTitle className="text-white text-2xl">Envie sua Mensagem</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-white/90 mb-2">Nome</label>
-                  <Input placeholder="Seu nome" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
-                </div>
-                <div>
-                  <label className="block text-white/90 mb-2">Telefone</label>
-                  <Input placeholder="(11) 99999-9999" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-white/90 mb-2">E-mail</label>
-                <Input type="email" placeholder="seu@email.com" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
-              </div>
-
-              <div>
-                <label className="block text-white/90 mb-2">Assunto</label>
-                <Input placeholder="Como podemos ajudar?" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
-              </div>
-
-              <div>
-                <label className="block text-white/90 mb-2">Mensagem</label>
-                <Textarea placeholder="Descreva sua necessidade ou problema..." className="bg-white/10 border-white/30 text-white placeholder:text-white/60 min-h-[120px]" />
-              </div>
-
-              <Button variant="hero" size="lg" className="w-full text-lg">
-                Enviar Mensagem
-              </Button>
-            </CardContent>
-          </Card>
+          
         </div>
       </div>
     </section>;
