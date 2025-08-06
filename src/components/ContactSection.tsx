@@ -69,7 +69,7 @@ const ContactSection = () => {
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-slate-800 hover:bg-slate-700">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://facebook.com/cel.newtech/" target="_blank" rel="noopener noreferrer">
                   <Facebook className="w-5 h-5" />
                 </a>
               </Button>
