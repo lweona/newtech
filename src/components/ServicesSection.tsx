@@ -93,7 +93,7 @@ const ServicesSection = () => {
 
         <div className="text-center">
           <Button asChild variant="tech" size="lg" className="text-lg px-8 py-4">
-            <a href="https://wa.me/55119074497399" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5511974497399" target="_blank" rel="noopener noreferrer">
               Solicitar Orçamento
               <ArrowRight className="ml-2 w-5 h-5" />
             </a>

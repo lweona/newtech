@@ -22,7 +22,7 @@ const Header = () => {
 
         <div className="flex items-center gap-4">
           <Button asChild variant="hero" size="sm" className="hidden md:inline-flex">
-            <a href="https://wa.me/55119074497399" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5511974497399" target="_blank" rel="noopener noreferrer">
               Fale Conosco
             </a>
           </Button>
