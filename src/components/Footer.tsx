@@ -37,8 +37,8 @@ const Footer = () => {
             <ul className="space-y-2 text-white/80 text-sm">
               <li>(11) 99999-9999</li>
               <li>contato@newtech.com.br</li>
-              <li>Rua da Tecnologia, 123</li>
-              <li>Vila Madalena, São Paulo - SP</li>
+              <li>R. Hildebrando Siqueira, 625</li>
+              <li>Americanópolis, São Paulo - SP</li>
             </ul>
           </div>
         </div>

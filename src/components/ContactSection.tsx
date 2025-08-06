@@ -37,9 +37,9 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-white/90">
-                  Rua da Tecnologia, 123<br />
-                  Vila Madalena, São Paulo - SP<br />
-                  CEP: 05422-000
+                  R. Hildebrando Siqueira, 625<br />
+                  Americanópolis, São Paulo - SP<br />
+                  CEP: 04334-150
                 </p>
               </CardContent>
             </Card>
