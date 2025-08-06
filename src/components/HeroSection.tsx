@@ -33,9 +33,11 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Veja nossas Mercadorias
-              <ArrowRight className="ml-2 w-5 h-5" />
+            <Button asChild variant="hero" size="lg" className="text-lg px-8 py-4">
+              <a href="https://www.facebook.com/cel.newtech" target="_blank" rel="noopener noreferrer">
+                Veja nossas Mercadorias
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </a>
             </Button>
             
           </div>
