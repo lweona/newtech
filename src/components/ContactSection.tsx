@@ -64,17 +64,17 @@ const ContactSection = () => {
             {/* Social Media */}
             <div className="flex gap-4">
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-orange-500 hover:bg-orange-400">
-                <a href="https://instagram.com/cel.newtech/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/cel.newtech" target="_blank" rel="noopener noreferrer">
                   <Instagram className="w-5 h-5" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-slate-800 hover:bg-slate-700">
-                <a href="https://facebook.com/cel.newtech/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/cel.newtech" target="_blank" rel="noopener noreferrer">
                   <Facebook className="w-5 h-5" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-emerald-800 hover:bg-emerald-700">
-                <a href="https://wa.me/5511974497399" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/55119074497399" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-5 h-5" />
                 </a>
               </Button>

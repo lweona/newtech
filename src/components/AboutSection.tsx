@@ -71,7 +71,14 @@ const AboutSection = () => {
             </div>
           </div>
 
-          
+          <div className="text-center">
+            <Button asChild variant="hero" size="lg" className="text-lg px-8 py-4">
+              <a href="https://www.facebook.com/cel.newtech" target="_blank" rel="noopener noreferrer">
+                Veja nossos produtos
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>;

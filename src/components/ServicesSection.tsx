@@ -92,9 +92,11 @@ const ServicesSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="tech" size="lg" className="text-lg px-8 py-4">
-            Solicitar Orçamento
-            <ArrowRight className="ml-2 w-5 h-5" />
+          <Button asChild variant="tech" size="lg" className="text-lg px-8 py-4">
+            <a href="https://wa.me/55119074497399" target="_blank" rel="noopener noreferrer">
+              Solicitar Orçamento
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </a>
           </Button>
         </div>
       </div>

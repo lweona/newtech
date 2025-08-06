@@ -15,15 +15,16 @@ const Header = () => {
           <a href="#services" className="text-white hover:text-tech-orange transition-colors">
             Serviços
           </a>
-          
           <a href="#contact" className="text-white hover:text-tech-orange transition-colors">
             Contato
           </a>
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button variant="hero" size="sm" className="hidden md:inline-flex">
-            Fale Conosco
+          <Button asChild variant="hero" size="sm" className="hidden md:inline-flex">
+            <a href="https://wa.me/55119074497399" target="_blank" rel="noopener noreferrer">
+              Fale Conosco
+            </a>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden text-white">
             <Menu className="w-5 h-5" />
