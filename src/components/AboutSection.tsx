@@ -71,10 +71,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white text-white hover:text-tech-orange transition-all duration-300 bg-gray-800 hover:bg-gray-700">
-            Conheça Nossos Produtos
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          
         </div>
       </div>
     </section>;
