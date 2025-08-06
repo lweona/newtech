@@ -63,17 +63,25 @@ const ContactSection = () => {
 
             {/* Social Media */}
             <div className="flex gap-4">
-              <Button variant="outline" size="icon" className="border-white/30 text-white bg-orange-500 hover:bg-orange-400">
-                <Instagram className="w-5 h-5" />
+              <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-orange-500 hover:bg-orange-400">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="outline" size="icon" className="border-white/30 text-white bg-slate-800 hover:bg-slate-700">
-                <Facebook className="w-5 h-5" />
+              <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-slate-800 hover:bg-slate-700">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="outline" size="icon" className="border-white/30 text-white bg-emerald-800 hover:bg-emerald-700">
-                <MessageCircle className="w-5 h-5" />
+              <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-emerald-800 hover:bg-emerald-700">
+                <a href="https://wa.me/5511974497399" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="outline" size="icon" className="border-white/30 text-white bg-red-600 hover:bg-red-500">
-                <Mail className="w-5 h-5" />
+              <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-red-600 hover:bg-red-500">
+                <a href="mailto:contato@example.com" target="_blank" rel="noopener noreferrer">
+                  <Mail className="w-5 h-5" />
+                </a>
               </Button>
             </div>
           </div>
