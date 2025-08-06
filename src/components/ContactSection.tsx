@@ -64,7 +64,7 @@ const ContactSection = () => {
             {/* Social Media */}
             <div className="flex gap-4">
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-orange-500 hover:bg-orange-400">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/cel.newtech/" target="_blank" rel="noopener noreferrer">
                   <Instagram className="w-5 h-5" />
                 </a>
               </Button>
