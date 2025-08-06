@@ -18,7 +18,7 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8 mx-auto max-w-md">
-            <Card className="bg-white/10 w-64 backdrop-blur-sm border-white/20 text-white">
+            <Card className="bg-white/10 w-full backdrop-blur-sm border-white/20 text-white">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <MapPin className="w-6 h-6 text-tech-orange" />
