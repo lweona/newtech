@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Smartphone, Menu } from "lucide-react";
-
 const Header = () => {
-  return (
-    <header className="fixed top-0 w-full z-50 bg-hero-bg/95 backdrop-blur-sm border-b border-white/10">
+  return <header className="fixed top-0 w-full z-50 bg-hero-bg/95 backdrop-blur-sm border-b border-white/10">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Smartphone className="w-8 h-8 text-tech-orange" />
@@ -17,9 +15,7 @@ const Header = () => {
           <a href="#services" className="text-white hover:text-tech-orange transition-colors">
             Serviços
           </a>
-          <a href="#products" className="text-white hover:text-tech-orange transition-colors">
-            Produtos
-          </a>
+          
           <a href="#contact" className="text-white hover:text-tech-orange transition-colors">
             Contato
           </a>
@@ -34,8 +30,6 @@ const Header = () => {
           </Button>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
