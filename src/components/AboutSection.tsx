@@ -72,7 +72,7 @@ const AboutSection = () => {
           </div>
 
           <div className="text-center">
-            <Button asChild variant="hero" size="lg" className="text-lg px-8 py-4 bg-blue-600 hover:bg-blue-700">
+            <Button asChild variant="hero" size="lg" className="text-lg px-8 py-4 bg-dark hover:bg-blue-700">
               <a href="https://www.facebook.com/cel.newtech" target="_blank" rel="noopener noreferrer">
                 Veja nossos produtos
                 <ArrowRight className="ml-2 w-5 h-5" />
