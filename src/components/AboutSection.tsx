@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle, ArrowRight } from "lucide-react";
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 bg-gradient-accent relative overflow-hidden">
+  return <section id="about" className="py-20 bg-gradient-accent relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full" />
@@ -73,18 +71,12 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-tech-orange transition-all duration-300"
-          >
+          <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white text-white hover:text-tech-orange transition-all duration-300 bg-gray-800 hover:bg-gray-700">
             Conheça Nossos Produtos
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
