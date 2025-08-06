@@ -37,9 +37,9 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-white/90">
-                  Rua da Tecnologia, 123<br />
-                  Vila Madalena, São Paulo - SP<br />
-                  CEP: 05422-000
+                   R. Hildebrando Siqueira, 625<br />
+                  Americanópolis, São Paulo - SP<br />
+                  CEP: 04334-150
                 </p>
               </CardContent>
             </Card>
@@ -53,7 +53,7 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="text-white/90">(11) 974497399 - WhatsApp</p>
-                <p className="text-white/90">(11) 94444-4444 - Suporte 24h</p>
+                <p className="text-white/90">(11) 974497399 - Suporte 24h</p>
               </CardContent>
             </Card>
 
