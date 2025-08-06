@@ -79,9 +79,7 @@ const ContactSection = () => {
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon" className="border-white/30 text-white bg-red-600 hover:bg-red-500">
-                <a href="mailto:contato@example.com" target="_blank" rel="noopener noreferrer">
-                  <Mail className="w-5 h-5" />
-                </a>
+                
               </Button>
             </div>
           </div>
