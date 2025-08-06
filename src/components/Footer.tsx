@@ -1,8 +1,6 @@
 import { Smartphone } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-hero-overlay text-white py-12 border-t border-white/10">
+  return <footer className="bg-hero-overlay text-white py-12 border-t border-white/10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
@@ -35,7 +33,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-tech-orange">Contato</h3>
             <ul className="space-y-2 text-white/80 text-sm">
-              <li>(11) 99999-9999</li>
+              <li>(11) 974497399</li>
               <li>contato@newtech.com.br</li>
               <li>R. Hildebrando Siqueira, 625</li>
               <li>Americanópolis, São Paulo - SP</li>
@@ -49,8 +47,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

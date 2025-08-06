@@ -1,20 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Smartphone, Headphones } from "lucide-react";
 import heroImage from "@/assets/tech-hero-bg.jpg";
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="min-h-screen relative flex items-center justify-center overflow-hidden">
+  return <section id="home" className="min-h-screen relative flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-hero">
-        <div 
-          className="absolute inset-0 opacity-30"
-          style={{
-            backgroundImage: `url(${heroImage})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        />
+        <div className="absolute inset-0 opacity-30" style={{
+        backgroundImage: `url(${heroImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }} />
         <div className="absolute inset-0 bg-hero-bg/70" />
       </div>
 
@@ -23,7 +18,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Smartphone className="w-12 h-12 text-tech-orange animate-pulse" />
-            <h1 className="text-5xl md:text-7xl font-bold text-white">
+            <h1 className="text-5xl font-bold text-white px-[3px] text-center md:text-6xl py-[70px] my-[80px] mx-[11px]">
               New <span className="text-tech-orange">Tech</span>
             </h1>
           </div>
@@ -42,7 +37,7 @@ const HeroSection = () => {
               Veja nossas Mercadorias
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 hover:bg-white/10 text-amber-600">
               Solicitar Suporte
             </Button>
           </div>
@@ -80,8 +75,6 @@ const HeroSection = () => {
       <div className="absolute top-20 left-10 w-20 h-20 bg-tech-orange/20 rounded-full animate-bounce" />
       <div className="absolute bottom-32 right-16 w-16 h-16 bg-tech-blue/20 rounded-full animate-pulse" />
       <div className="absolute top-1/2 right-10 w-12 h-12 bg-tech-orange/30 rounded-full animate-ping" />
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

@@ -2,19 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock,
-  Instagram,
-  Facebook,
-  MessageCircle
-} from "lucide-react";
-
+import { MapPin, Phone, Mail, Clock, Instagram, Facebook, MessageCircle } from "lucide-react";
 const ContactSection = () => {
-  return (
-    <section id="contact" className="py-20 bg-hero-bg text-white">
+  return <section id="contact" className="py-20 bg-hero-bg text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
@@ -53,7 +43,7 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="text-white/90">(11) 974497399 - WhatsApp</p>
-                <p className="text-white/90">(11) 94444-4444 - Suporte 24h</p>
+                
               </CardContent>
             </Card>
 
@@ -73,16 +63,16 @@ const ContactSection = () => {
 
             {/* Social Media */}
             <div className="flex gap-4">
-              <Button variant="outline" size="icon" className="border-white/30 text-white hover:bg-white/10">
+              <Button variant="outline" size="icon" className="border-white/30 text-white bg-orange-500 hover:bg-orange-400">
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button variant="outline" size="icon" className="border-white/30 text-white hover:bg-white/10">
+              <Button variant="outline" size="icon" className="border-white/30 text-white bg-slate-800 hover:bg-slate-700">
                 <Facebook className="w-5 h-5" />
               </Button>
-              <Button variant="outline" size="icon" className="border-white/30 text-white hover:bg-white/10">
+              <Button variant="outline" size="icon" className="border-white/30 text-white bg-emerald-800 hover:bg-emerald-700">
                 <MessageCircle className="w-5 h-5" />
               </Button>
-              <Button variant="outline" size="icon" className="border-white/30 text-white hover:bg-white/10">
+              <Button variant="outline" size="icon" className="border-white/30 text-white bg-red-600 hover:bg-red-500">
                 <Mail className="w-5 h-5" />
               </Button>
             </div>
@@ -97,43 +87,27 @@ const ContactSection = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-white/90 mb-2">Nome</label>
-                  <Input 
-                    placeholder="Seu nome" 
-                    className="bg-white/10 border-white/30 text-white placeholder:text-white/60"
-                  />
+                  <Input placeholder="Seu nome" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
                 </div>
                 <div>
                   <label className="block text-white/90 mb-2">Telefone</label>
-                  <Input 
-                    placeholder="(11) 99999-9999" 
-                    className="bg-white/10 border-white/30 text-white placeholder:text-white/60"
-                  />
+                  <Input placeholder="(11) 99999-9999" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
                 </div>
               </div>
 
               <div>
                 <label className="block text-white/90 mb-2">E-mail</label>
-                <Input 
-                  type="email" 
-                  placeholder="seu@email.com" 
-                  className="bg-white/10 border-white/30 text-white placeholder:text-white/60"
-                />
+                <Input type="email" placeholder="seu@email.com" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
               </div>
 
               <div>
                 <label className="block text-white/90 mb-2">Assunto</label>
-                <Input 
-                  placeholder="Como podemos ajudar?" 
-                  className="bg-white/10 border-white/30 text-white placeholder:text-white/60"
-                />
+                <Input placeholder="Como podemos ajudar?" className="bg-white/10 border-white/30 text-white placeholder:text-white/60" />
               </div>
 
               <div>
                 <label className="block text-white/90 mb-2">Mensagem</label>
-                <Textarea 
-                  placeholder="Descreva sua necessidade ou problema..." 
-                  className="bg-white/10 border-white/30 text-white placeholder:text-white/60 min-h-[120px]"
-                />
+                <Textarea placeholder="Descreva sua necessidade ou problema..." className="bg-white/10 border-white/30 text-white placeholder:text-white/60 min-h-[120px]" />
               </div>
 
               <Button variant="hero" size="lg" className="w-full text-lg">
@@ -143,8 +117,6 @@ const ContactSection = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
