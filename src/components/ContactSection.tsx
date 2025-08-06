@@ -52,8 +52,7 @@ const ContactSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
-                <p className="text-white/90">(11) 99999-9999 - WhatsApp</p>
-                <p className="text-white/90">(11) 3333-3333 - Fixo</p>
+                <p className="text-white/90">(11) 974497399 - WhatsApp</p>
                 <p className="text-white/90">(11) 94444-4444 - Suporte 24h</p>
               </CardContent>
             </Card>
@@ -66,8 +65,8 @@ const ContactSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
-                <p className="text-white/90">Segunda a Sexta: 8h às 18h</p>
-                <p className="text-white/90">Sábado: 9h às 15h</p>
+                <p className="text-white/90">Segunda a Sexta: 8:30h às 19h</p>
+                <p className="text-white/90">Sábado: 9h às 16h</p>
                 <p className="text-white/90">Domingo: Apenas emergências</p>
               </CardContent>
             </Card>
