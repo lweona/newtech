@@ -16,7 +16,7 @@ const ServicesSection = () => {
       icon: Smartphone,
       title: "Assistência e Acessórios",
       description: "Reparo especializado em smartphones, tablets e acessórios de todas as marcas",
-      features: ["Troca de telas", "Bateria", "Conectores", "Câmeras"]
+      features: ["Troca de telas", "Bateria", "Reparos exclusivos em placas", "Câmeras"]
     },
     {
       icon: Shield,
