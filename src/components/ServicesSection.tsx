@@ -28,7 +28,7 @@ const ServicesSection = () => {
       icon: Monitor,
       title: "Venda de Dispositivos",
       description: "Smartphones novos e seminovos com garantia e melhores preços",
-      features: ["Últimos lançamentos", "Dispositivos certificados", "Financiamento", "Trade-in"]
+      features: ["Últimos lançamentos", "Dispositivos certificados"]
     },
     {
       icon: Headphones,
