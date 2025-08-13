@@ -17,7 +17,7 @@ const AboutSection = () => {
           
           <div className="text-lg md:text-xl leading-relaxed mb-12 space-y-6">
             <p>
-              Seu destino ideal para smartphones avançados e acessórios em São Paulo.
+              Seu destino ideal para smartphones avançados e acessórios na Zona Sul de São Paulo.
               Trazemos inovação ao seu alcance, oferecendo dispositivos
               excepcionais e um atendimento ao cliente que aprimora a
               comunicação e a conectividade.
