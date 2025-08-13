@@ -22,7 +22,7 @@ const ServicesSection = () => {
       icon: Shield,
       title: "Suporte Técnico Premium",
       description: "Atendimento técnico especializado com garantia estendida",
-      features: ["Diagnóstico gratuito", "Garantia de 6 meses", "Suporte remoto", "Consultoria"]
+      features: ["Diagnóstico gratuito", "Garantia de 3 meses", "Suporte remoto", "Consultoria"]
     },
     {
       icon: Monitor,
