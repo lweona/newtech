@@ -62,7 +62,7 @@ const HeroSection = () => {
             
             <div className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white/10 backdrop-blur-sm">
               <Headphones className="w-8 h-8 text-tech-orange" />
-              <h3 className="text-white font-semibold">Atendimento 24/7</h3>
+              <h3 className="text-white font-semibold">Atendimento Exclusivo</h3>
               <p className="text-white/80 text-sm text-center">
                 Suporte técnico disponível a qualquer hora do dia
               </p>
