@@ -55,7 +55,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Entrega Rápida</h3>
                 <p className="text-white/90">
-                  Entregamos em toda São Paulo com agilidade e segurança
+                  Entregamos na capital e regiões próximas a São Paulo
                 </p>
               </div>
             </div>
